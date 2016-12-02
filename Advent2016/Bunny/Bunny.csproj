@@ -44,6 +44,10 @@
     <Compile Include="Grid\Move.cs" />
     <Compile Include="Grid\Position.cs" />
     <Compile Include="Grid\Turn.cs" />
+    <Compile Include="Keypad\Direction.cs" />
+    <Compile Include="Keypad\PadCatalogue.cs" />
+    <Compile Include="Keypad\PadKey.cs" />
+    <Compile Include="Keypad\Pad.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup />

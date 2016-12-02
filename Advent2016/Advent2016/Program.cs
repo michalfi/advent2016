@@ -4,6 +4,7 @@ using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Advent2016.Bunny.Keypad;
 using Advent2016.Puzzle;
 
 namespace Advent2016
@@ -13,7 +14,9 @@ namespace Advent2016
         private static Dictionary<string, IPuzzle> Puzzles = new Dictionary<string, IPuzzle>
         {
             {"1", new Day1DistanceToHq()},
-            {"1.2", new Day1DistanceToActualHq()}
+            {"1.2", new Day1DistanceToActualHq()},
+            {"2", new Day2BathroomCode(PadCatalogue.Numeric)},
+            {"2.2", new Day2BathroomCode(PadCatalogue.Bathroom)}
         };
 
         static void Main(string[] args)
