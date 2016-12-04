@@ -16,7 +16,9 @@ namespace Advent2016
             {"1", new Day1DistanceToHq()},
             {"1.2", new Day1DistanceToActualHq()},
             {"2", new Day2BathroomCode(PadCatalogue.Numeric)},
-            {"2.2", new Day2BathroomCode(PadCatalogue.Bathroom)}
+            {"2.2", new Day2BathroomCode(PadCatalogue.Bathroom)},
+            {"3", new Day3PossibleTriangles() },
+            {"3.2", new Day3VerticalTriangles() }
         };
 
         static void Main(string[] args)
