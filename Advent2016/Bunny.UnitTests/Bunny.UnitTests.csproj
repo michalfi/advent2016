@@ -75,6 +75,8 @@
     <Compile Include="Grid\PositionTests.cs" />
     <Compile Include="Grid\TurnTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RoomList\ChecksumComputerTests.cs" />
+    <Compile Include="RoomList\ShifterTests.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />

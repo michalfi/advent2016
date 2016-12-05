@@ -58,6 +58,8 @@
     <Compile Include="Puzzle\Day2BathroomCode.cs" />
     <Compile Include="Puzzle\Day3PossibleTriangles.cs" />
     <Compile Include="Puzzle\Day3VerticalTriangles.cs" />
+    <Compile Include="Puzzle\Day4EncryptedRooms.cs" />
+    <Compile Include="Puzzle\Day4FindNorthPole.cs" />
     <Compile Include="Puzzle\IPuzzle.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -87,6 +89,9 @@
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
     <Content Include="input\3.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="input\4.txt">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
   </ItemGroup>

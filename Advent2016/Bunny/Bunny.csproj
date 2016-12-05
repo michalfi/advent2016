@@ -49,6 +49,10 @@
     <Compile Include="Keypad\PadKey.cs" />
     <Compile Include="Keypad\Pad.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RoomList\ChecksumComputer.cs" />
+    <Compile Include="RoomList\Entry.cs" />
+    <Compile Include="RoomList\EntryParser.cs" />
+    <Compile Include="RoomList\Shifter.cs" />
   </ItemGroup>
   <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
