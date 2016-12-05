@@ -5,6 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Advent2016.Bunny.Keypad;
+using Advent2016.Bunny.SecurityDoor;
 using Advent2016.Puzzle;
 
 namespace Advent2016
@@ -20,7 +21,9 @@ namespace Advent2016
             {"3", new Day3PossibleTriangles() },
             {"3.2", new Day3VerticalTriangles() },
             {"4", new Day4EncryptedRooms() },
-            {"4.2", new Day4FindNorthPole() }
+            {"4.2", new Day4FindNorthPole() },
+            {"5", new Day5SecurityDoor(new PasswordCracker()) },
+            {"5.2", new Day5SecurityDoor(new PositionalCracker()) }
         };
 
         static void Main(string[] args)
