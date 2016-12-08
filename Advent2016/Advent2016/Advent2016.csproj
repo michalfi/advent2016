@@ -61,6 +61,7 @@
     <Compile Include="Puzzle\Day4EncryptedRooms.cs" />
     <Compile Include="Puzzle\Day4FindNorthPole.cs" />
     <Compile Include="Puzzle\Day5SecurityDoor.cs" />
+    <Compile Include="Puzzle\Day6JammedComms.cs" />
     <Compile Include="Puzzle\IPuzzle.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -96,6 +97,9 @@
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
     <Content Include="input\5.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="input\6.txt">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
   </ItemGroup>

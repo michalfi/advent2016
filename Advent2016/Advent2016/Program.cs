@@ -4,6 +4,7 @@ using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Advent2016.Bunny.Comms;
 using Advent2016.Bunny.Keypad;
 using Advent2016.Bunny.SecurityDoor;
 using Advent2016.Puzzle;
@@ -23,7 +24,9 @@ namespace Advent2016
             {"4", new Day4EncryptedRooms() },
             {"4.2", new Day4FindNorthPole() },
             {"5", new Day5SecurityDoor(new PasswordCracker()) },
-            {"5.2", new Day5SecurityDoor(new PositionalCracker()) }
+            {"5.2", new Day5SecurityDoor(new PositionalCracker()) },
+            {"6", new Day6JammedComms(RepeatedMessageCleaner.Protocol.Simple) },
+            {"6.2", new Day6JammedComms(RepeatedMessageCleaner.Protocol.Modified) }
         };
 
         static void Main(string[] args)

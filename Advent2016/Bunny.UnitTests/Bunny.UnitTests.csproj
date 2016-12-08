@@ -33,6 +33,10 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Fare, Version=1.0.3.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Fare.1.0.3\lib\net35\Fare.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
     <Reference Include="FsCheck, Version=2.6.2.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\packages\FsCheck.2.6.2\lib\net45\FsCheck.dll</HintPath>
       <Private>True</Private>
@@ -71,6 +75,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Comms\RepeatedMessageCleanerTests.cs" />
     <Compile Include="Grid\MoveTests.cs" />
     <Compile Include="Grid\PositionTests.cs" />
     <Compile Include="Grid\TurnTests.cs" />
