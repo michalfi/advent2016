@@ -26,7 +26,9 @@ namespace Advent2016
             {"5", new Day5SecurityDoor(new PasswordCracker()) },
             {"5.2", new Day5SecurityDoor(new PositionalCracker()) },
             {"6", new Day6JammedComms(RepeatedMessageCleaner.Protocol.Simple) },
-            {"6.2", new Day6JammedComms(RepeatedMessageCleaner.Protocol.Modified) }
+            {"6.2", new Day6JammedComms(RepeatedMessageCleaner.Protocol.Modified) },
+            {"7", new Day7CountTlsIps() },
+            {"7.2", new Day7CountSslIps() }
         };
 
         static void Main(string[] args)
