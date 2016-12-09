@@ -76,6 +76,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Comms\RepeatedMessageCleanerTests.cs" />
+    <Compile Include="Display\InstructionParserTests.cs" />
+    <Compile Include="Display\ScreenSimulatorTests.cs" />
     <Compile Include="Grid\MoveTests.cs" />
     <Compile Include="Grid\PositionTests.cs" />
     <Compile Include="Grid\TurnTests.cs" />

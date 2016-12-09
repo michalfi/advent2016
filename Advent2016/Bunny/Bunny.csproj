@@ -41,6 +41,10 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Comms\RepeatedMessageCleaner.cs" />
+    <Compile Include="Display\Bitmap.cs" />
+    <Compile Include="Display\Instruction.cs" />
+    <Compile Include="Display\InstructionParser.cs" />
+    <Compile Include="Display\ScreenSimulator.cs" />
     <Compile Include="Grid\Direction.cs" />
     <Compile Include="Grid\Move.cs" />
     <Compile Include="Grid\Position.cs" />
@@ -61,6 +65,7 @@
     <Compile Include="SecurityDoor\PasswordCracker.cs" />
     <Compile Include="SecurityDoor\PositionalCracker.cs" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
