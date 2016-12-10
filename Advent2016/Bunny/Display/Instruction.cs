@@ -38,5 +38,10 @@
                 return hashCode;
             }
         }
+
+        public override string ToString()
+        {
+            return $"<{this.Op} {this.ParamA} {this.ParamB}>";
+        }
     }
 }

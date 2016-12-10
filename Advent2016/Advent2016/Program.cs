@@ -29,7 +29,8 @@ namespace Advent2016
             {"6.2", new Day6JammedComms(RepeatedMessageCleaner.Protocol.Modified) },
             {"7", new Day7CountTlsIps() },
             {"7.2", new Day7CountSslIps() },
-            {"8", new Day8ComputeDisplayVoltage() }
+            {"8", new Day8ComputeDisplayVoltage() },
+            {"8.2", new Day8DisplayCode() }
         };
 
         static void Main(string[] args)

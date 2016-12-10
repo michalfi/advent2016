@@ -65,6 +65,7 @@
     <Compile Include="Puzzle\Day7CountSslIps.cs" />
     <Compile Include="Puzzle\Day7CountTlsIps.cs" />
     <Compile Include="Puzzle\Day8ComputeDisplayVoltage.cs" />
+    <Compile Include="Puzzle\Day8DisplayCode.cs" />
     <Compile Include="Puzzle\IPuzzle.cs" />
   </ItemGroup>
   <ItemGroup>

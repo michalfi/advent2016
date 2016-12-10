@@ -1,9 +1,14 @@
-﻿using System.Linq;
-using Advent2016.Bunny.Display;
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 
 namespace Advent2016.Puzzle
 {
-    public class Day8ComputeDisplayVoltage : IPuzzle
+    using Bunny.Display;
+
+    class Day8DisplayCode : IPuzzle
     {
         public string Solve(string[] input)
         {
@@ -12,8 +17,7 @@ namespace Advent2016.Puzzle
             var simulator = new ScreenSimulator(50, 6);
             var endState = instructions.Aggregate(simulator.InitialState(),
                 (state, instruction) => simulator.Simulate(instruction, state));
-            int pixelsLit = endState.Pixels.Cast<bool>().Count(pixel => pixel);
-            return pixelsLit.ToString();
+            return endState.ToString();
         }
     }
 }
