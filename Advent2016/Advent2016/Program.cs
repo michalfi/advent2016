@@ -30,7 +30,9 @@ namespace Advent2016
             {"7", new Day7CountTlsIps() },
             {"7.2", new Day7CountSslIps() },
             {"8", new Day8ComputeDisplayVoltage() },
-            {"8.2", new Day8DisplayCode() }
+            {"8.2", new Day8DisplayCode() },
+            {"9", new Day9DecompressedFileLength() },
+            {"9.2", new Day9V2DecompressedLength() }
         };
 
         static void Main(string[] args)

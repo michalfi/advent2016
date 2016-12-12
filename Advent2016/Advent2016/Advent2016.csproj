@@ -66,6 +66,8 @@
     <Compile Include="Puzzle\Day7CountTlsIps.cs" />
     <Compile Include="Puzzle\Day8ComputeDisplayVoltage.cs" />
     <Compile Include="Puzzle\Day8DisplayCode.cs" />
+    <Compile Include="Puzzle\Day9DecompressedFileLength.cs" />
+    <Compile Include="Puzzle\Day9V2DecompressedLength.cs" />
     <Compile Include="Puzzle\IPuzzle.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -110,6 +112,9 @@
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
     <Content Include="input\8.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="input\9.txt">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
   </ItemGroup>

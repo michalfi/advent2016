@@ -41,6 +41,10 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Comms\RepeatedMessageCleaner.cs" />
+    <Compile Include="Compression\ExplosiveReader.cs" />
+    <Compile Include="Compression\Marker.cs" />
+    <Compile Include="Compression\MarkerFinder.cs" />
+    <Compile Include="Compression\RepetitiveExplosionCounter.cs" />
     <Compile Include="Display\Bitmap.cs" />
     <Compile Include="Display\Instruction.cs" />
     <Compile Include="Display\InstructionParser.cs" />
