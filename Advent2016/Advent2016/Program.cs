@@ -15,30 +15,32 @@ namespace Advent2016
     {
         private static readonly Dictionary<string, IPuzzle> Puzzles = new Dictionary<string, IPuzzle>
         {
-            {"1", new Day1DistanceToHq()},
-            {"1.2", new Day1DistanceToActualHq()},
-            {"2", new Day2BathroomCode(PadCatalogue.Numeric)},
-            {"2.2", new Day2BathroomCode(PadCatalogue.Bathroom)},
-            {"3", new Day3PossibleTriangles() },
-            {"3.2", new Day3VerticalTriangles() },
-            {"4", new Day4EncryptedRooms() },
-            {"4.2", new Day4FindNorthPole() },
-            {"5", new Day5SecurityDoor(new PasswordCracker()) },
-            {"5.2", new Day5SecurityDoor(new PositionalCracker()) },
-            {"6", new Day6JammedComms(RepeatedMessageCleaner.Protocol.Simple) },
-            {"6.2", new Day6JammedComms(RepeatedMessageCleaner.Protocol.Modified) },
-            {"7", new Day7CountTlsIps() },
-            {"7.2", new Day7CountSslIps() },
-            {"8", new Day8ComputeDisplayVoltage() },
-            {"8.2", new Day8DisplayCode() },
-            {"9", new Day9DecompressedFileLength() },
-            {"9.2", new Day9V2DecompressedLength() }
+            {"01", new Day1DistanceToHq()},
+            {"01.2", new Day1DistanceToActualHq()},
+            {"02", new Day2BathroomCode(PadCatalogue.Numeric)},
+            {"02.2", new Day2BathroomCode(PadCatalogue.Bathroom)},
+            {"03", new Day3PossibleTriangles() },
+            {"03.2", new Day3VerticalTriangles() },
+            {"04", new Day4EncryptedRooms() },
+            {"04.2", new Day4FindNorthPole() },
+            {"05", new Day5SecurityDoor(new PasswordCracker()) },
+            {"05.2", new Day5SecurityDoor(new PositionalCracker()) },
+            {"06", new Day6JammedComms(RepeatedMessageCleaner.Protocol.Simple) },
+            {"06.2", new Day6JammedComms(RepeatedMessageCleaner.Protocol.Modified) },
+            {"07", new Day7CountTlsIps() },
+            {"07.2", new Day7CountSslIps() },
+            {"08", new Day8ComputeDisplayVoltage() },
+            {"08.2", new Day8DisplayCode() },
+            {"09", new Day9DecompressedFileLength() },
+            {"09.2", new Day9V2DecompressedLength() },
+            {"10", new Day10IdentifyBot() },
+            {"10.2", new Day10OutputValues() }
         };
 
         static void Main(string[] args)
         {
             var puzzleId = GetPuzzleIdFromArgOrLatest(args);
-            var inputName = puzzleId;
+            var inputName = puzzleId.TrimStart('0');
             if (!File.Exists($"input/{puzzleId}.txt"))
                 inputName = puzzleId.Substring(0, puzzleId.Length - 2);
             var input = File.ReadAllLines($"input/{inputName}.txt");

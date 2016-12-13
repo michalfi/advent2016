@@ -30,6 +30,10 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Dnum, Version=1.1.4252.35574, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Dnum.1.1.4252.35574\lib\net35\Dnum.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -49,6 +53,15 @@
     <Compile Include="Display\Instruction.cs" />
     <Compile Include="Display\InstructionParser.cs" />
     <Compile Include="Display\ScreenSimulator.cs" />
+    <Compile Include="Factory\Bot.cs" />
+    <Compile Include="Factory\Destination.cs" />
+    <Compile Include="Factory\DestinationKind.cs" />
+    <Compile Include="Factory\IBotInstruction.cs" />
+    <Compile Include="Factory\InputInstruction.cs" />
+    <Compile Include="Factory\InstructionParser.cs" />
+    <Compile Include="Factory\BotInstruction.cs" />
+    <Compile Include="Factory\SwarmLayout.cs" />
+    <Compile Include="Factory\SwarmScript.cs" />
     <Compile Include="Grid\Direction.cs" />
     <Compile Include="Grid\Move.cs" />
     <Compile Include="Grid\Position.cs" />
@@ -69,7 +82,9 @@
     <Compile Include="SecurityDoor\PasswordCracker.cs" />
     <Compile Include="SecurityDoor\PositionalCracker.cs" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

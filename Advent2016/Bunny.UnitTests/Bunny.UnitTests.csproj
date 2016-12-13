@@ -80,6 +80,8 @@
     <Compile Include="Compression\RepetitiveExplosionCounterTests.cs" />
     <Compile Include="Display\InstructionParserTests.cs" />
     <Compile Include="Display\ScreenSimulatorTests.cs" />
+    <Compile Include="Factory\InstructionParserTests.cs" />
+    <Compile Include="Factory\SwarmScriptCompilationTests.cs" />
     <Compile Include="Grid\MoveTests.cs" />
     <Compile Include="Grid\PositionTests.cs" />
     <Compile Include="Grid\TurnTests.cs" />
