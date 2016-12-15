@@ -48,6 +48,17 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assembunny\Cpy.cs" />
+    <Compile Include="Assembunny\Dec.cs" />
+    <Compile Include="Assembunny\IInstruction.cs" />
+    <Compile Include="Assembunny\Inc.cs" />
+    <Compile Include="Assembunny\InstructionParser.cs" />
+    <Compile Include="Assembunny\Interpreter.cs" />
+    <Compile Include="Assembunny\Jnz.cs" />
+    <Compile Include="Assembunny\Literal.cs" />
+    <Compile Include="Assembunny\Register.cs" />
+    <Compile Include="Assembunny\RegisterMap.cs" />
+    <Compile Include="Assembunny\ISource.cs" />
     <Compile Include="ChipAssembly\ArrayExtensions.cs" />
     <Compile Include="ChipAssembly\BitArrayExtensions.cs" />
     <Compile Include="ChipAssembly\ManipulationPlanner.cs" />
