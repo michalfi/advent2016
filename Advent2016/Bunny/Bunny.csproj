@@ -34,6 +34,10 @@
       <HintPath>..\packages\Dnum.1.1.4252.35574\lib\net35\Dnum.dll</HintPath>
       <Private>True</Private>
     </Reference>
+    <Reference Include="Kts.AStar, Version=1.1.1.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Kts.AStar.1.1.1.0\lib\portable-net45+win+wpa81\Kts.AStar.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -44,6 +48,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ChipAssembly\ArrayExtensions.cs" />
+    <Compile Include="ChipAssembly\BitArrayExtensions.cs" />
+    <Compile Include="ChipAssembly\ManipulationPlanner.cs" />
+    <Compile Include="ChipAssembly\State.cs" />
+    <Compile Include="ChipAssembly\InitialStateParser.cs" />
     <Compile Include="Comms\RepeatedMessageCleaner.cs" />
     <Compile Include="Compression\ExplosiveReader.cs" />
     <Compile Include="Compression\Marker.cs" />
@@ -85,6 +94,7 @@
   <ItemGroup>
     <None Include="packages.config" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

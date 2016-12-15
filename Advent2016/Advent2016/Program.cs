@@ -34,7 +34,9 @@ namespace Advent2016
             {"09", new Day9DecompressedFileLength() },
             {"09.2", new Day9V2DecompressedLength() },
             {"10", new Day10IdentifyBot() },
-            {"10.2", new Day10OutputValues() }
+            {"10.2", new Day10OutputValues() },
+            {"11", new Day11MinimalPlanLength("") },
+            {"11.2", new Day11MinimalPlanLength("elerium generator, elerium-compatible microchip, dilithium generator, dilithium-compatible microchip")  }
         };
 
         static void Main(string[] args)
