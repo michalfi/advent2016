@@ -86,6 +86,10 @@
     <Compile Include="Grid\Move.cs" />
     <Compile Include="Grid\Position.cs" />
     <Compile Include="Grid\Turn.cs" />
+    <Compile Include="InfiniteCubicles\Cubicle.cs" />
+    <Compile Include="InfiniteCubicles\Flooder.cs" />
+    <Compile Include="InfiniteCubicles\Maze.cs" />
+    <Compile Include="InfiniteCubicles\Navigator.cs" />
     <Compile Include="Ip7\AddressInspector.cs" />
     <Compile Include="Ip7\Ip7Address.cs" />
     <Compile Include="Ip7\AddressParser.cs" />

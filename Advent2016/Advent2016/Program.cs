@@ -42,7 +42,9 @@ namespace Advent2016
                     "elerium generator, elerium-compatible microchip, dilithium generator, dilithium-compatible microchip")
             },
             {"12", new Day12InterpretCode()},
-            {"12.2", new Day12InterpretInitialized()}
+            {"12.2", new Day12InterpretInitialized()},
+            {"13", new Day13StepsToCubicle()},
+            {"13.2", new Day13CountReachable()}
         };
 
         static void Main(string[] args)

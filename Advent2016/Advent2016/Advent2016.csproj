@@ -56,6 +56,8 @@
     <Compile Include="Puzzle\Day11MinimalPlanLength.cs" />
     <Compile Include="Puzzle\Day12InterpretCode.cs" />
     <Compile Include="Puzzle\Day12InterpretInitialized.cs" />
+    <Compile Include="Puzzle\Day13CountReachable.cs" />
+    <Compile Include="Puzzle\Day13StepsToCubicle.cs" />
     <Compile Include="Puzzle\Day1DistanceToActualHq.cs" />
     <Compile Include="Puzzle\Day1DistanceToHq.cs" />
     <Compile Include="Program.cs" />
@@ -86,9 +88,6 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="input\1.2.txt">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
     <Content Include="input\1.txt">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
@@ -101,13 +100,10 @@
     <Content Include="input\12.txt">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-    <Content Include="input\2.2.txt">
+    <Content Include="input\13.txt">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
     <Content Include="input\2.txt">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
-    <Content Include="input\3.2.txt">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
     <Content Include="input\3.txt">
