@@ -97,6 +97,9 @@
     <Compile Include="InfiniteCubicles\Flooder.cs" />
     <Compile Include="InfiniteCubicles\Maze.cs" />
     <Compile Include="InfiniteCubicles\Navigator.cs" />
+    <Compile Include="InteractiveSculpture\Disc.cs" />
+    <Compile Include="InteractiveSculpture\DiscParser.cs" />
+    <Compile Include="InteractiveSculpture\Timing.cs" />
     <Compile Include="Ip7\AddressInspector.cs" />
     <Compile Include="Ip7\Ip7Address.cs" />
     <Compile Include="Ip7\AddressParser.cs" />

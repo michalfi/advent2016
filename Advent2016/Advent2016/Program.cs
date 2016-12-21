@@ -45,8 +45,10 @@ namespace Advent2016
             {"12.2", new Day12InterpretInitialized()},
             {"13", new Day13StepsToCubicle()},
             {"13.2", new Day13CountReachable()},
-            {"14", new Day14PadKeyIndex() },
-            {"14.2", new Day14PadKeyIndex(2016) }
+            {"14", new Day14PadKeyIndex()},
+            {"14.2", new Day14PadKeyIndex(2016)},
+            {"15", new Day15Timer()},
+            {"15.2", new Day15Timer(new[] {"Disc #7 has 11 positions; at time=0, it is at position 0."})}
         };
 
         static void Main(string[] args)

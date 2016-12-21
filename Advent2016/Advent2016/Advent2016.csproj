@@ -59,6 +59,7 @@
     <Compile Include="Puzzle\Day13CountReachable.cs" />
     <Compile Include="Puzzle\Day13StepsToCubicle.cs" />
     <Compile Include="Puzzle\Day14PadKeyIndex.cs" />
+    <Compile Include="Puzzle\Day15Timer.cs" />
     <Compile Include="Puzzle\Day1DistanceToActualHq.cs" />
     <Compile Include="Puzzle\Day1DistanceToHq.cs" />
     <Compile Include="Program.cs" />
@@ -105,6 +106,9 @@
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
     <Content Include="input\14.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="input\15.txt">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
     <Content Include="input\2.txt">
