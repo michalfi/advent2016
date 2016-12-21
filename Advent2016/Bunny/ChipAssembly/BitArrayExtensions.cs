@@ -58,6 +58,11 @@ namespace Advent2016.Bunny.ChipAssembly
             return new string(bitChars);
         }
 
+        public static BitArray FromDigitString(string digits)
+        {
+            return new BitArray(digits.Select(d => d == '1').ToArray());
+        }
+
         public static bool ValueEquals(this BitArray array, BitArray other)
         {
             return new BitArray(array).Xor(other).Cardinality() == 0;
