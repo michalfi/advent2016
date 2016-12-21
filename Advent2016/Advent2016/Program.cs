@@ -44,7 +44,9 @@ namespace Advent2016
             {"12", new Day12InterpretCode()},
             {"12.2", new Day12InterpretInitialized()},
             {"13", new Day13StepsToCubicle()},
-            {"13.2", new Day13CountReachable()}
+            {"13.2", new Day13CountReachable()},
+            {"14", new Day14PadKeyIndex() },
+            {"14.2", new Day14PadKeyIndex(2016) }
         };
 
         static void Main(string[] args)

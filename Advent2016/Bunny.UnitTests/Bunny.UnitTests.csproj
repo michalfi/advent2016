@@ -78,6 +78,9 @@
     <Compile Include="ChipAssembly\PossibleMovesTests.cs" />
     <Compile Include="ChipAssembly\StateGen.cs" />
     <Compile Include="ChipAssembly\StateSafetyTests.cs" />
+    <Compile Include="Comms\DataGeneratorTests.cs" />
+    <Compile Include="Comms\KeyFinderTests.cs" />
+    <Compile Include="Comms\NletFinderTests.cs" />
     <Compile Include="Comms\RepeatedMessageCleanerTests.cs" />
     <Compile Include="Compression\ExplosiveReaderTests.cs" />
     <Compile Include="Compression\RepetitiveExplosionCounterTests.cs" />
