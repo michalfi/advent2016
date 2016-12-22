@@ -121,6 +121,8 @@
     <Compile Include="RoomList\Shifter.cs" />
     <Compile Include="SecurityDoor\PasswordCracker.cs" />
     <Compile Include="SecurityDoor\PositionalCracker.cs" />
+    <Compile Include="TrapCorridor\RowGenerator.cs" />
+    <Compile Include="TrapCorridor\TileRow.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
