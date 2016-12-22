@@ -58,7 +58,8 @@ namespace Advent2016
             {"19", new Day19ElephantWinner()},
             {"19.2", new Day19StealingAcross()},
             {"20", new Day20FirstFreeIp()},
-            {"20.2", new Day20CountFreeIps()}
+            {"20.2", new Day20CountFreeIps()},
+            {"21", new Day21ScramblePassword("abcdefgh")}
         };
 
         static void Main(string[] args)

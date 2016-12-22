@@ -120,6 +120,15 @@
     <Compile Include="RoomList\Entry.cs" />
     <Compile Include="RoomList\EntryParser.cs" />
     <Compile Include="RoomList\Shifter.cs" />
+    <Compile Include="Scrambling\IOperation.cs" />
+    <Compile Include="Scrambling\Move.cs" />
+    <Compile Include="Scrambling\OperationParser.cs" />
+    <Compile Include="Scrambling\Reverse.cs" />
+    <Compile Include="Scrambling\Rotate.cs" />
+    <Compile Include="Scrambling\RotateByLetter.cs" />
+    <Compile Include="Scrambling\Scrambler.cs" />
+    <Compile Include="Scrambling\SwapLetter.cs" />
+    <Compile Include="Scrambling\SwapPosition.cs" />
     <Compile Include="SecurityDoor\PasswordCracker.cs" />
     <Compile Include="SecurityDoor\PositionalCracker.cs" />
     <Compile Include="TrapCorridor\RowGenerator.cs" />
