@@ -67,7 +67,9 @@
     <Compile Include="Puzzle\Day16ComputeChecksum.cs" />
     <Compile Include="Puzzle\Day17LongestPath.cs" />
     <Compile Include="Puzzle\Day17PathToVault.cs" />
+    <Compile Include="Puzzle\Day19StealingAcross.cs" />
     <Compile Include="Puzzle\Day18SafeTiles.cs" />
+    <Compile Include="Puzzle\Day19ElephantWinner.cs" />
     <Compile Include="Puzzle\Day1DistanceToActualHq.cs" />
     <Compile Include="Puzzle\Day1DistanceToHq.cs" />
     <Compile Include="Program.cs" />
@@ -126,6 +128,9 @@
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
     <Content Include="input\18.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="input\19.txt">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
     <Content Include="input\2.txt">
