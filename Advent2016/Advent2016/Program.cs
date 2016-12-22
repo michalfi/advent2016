@@ -56,7 +56,9 @@ namespace Advent2016
             {"18", new Day18SafeTiles(40)},
             {"18.2", new Day18SafeTiles(400000)},
             {"19", new Day19ElephantWinner()},
-            {"19.2", new Day19StealingAcross()}
+            {"19.2", new Day19StealingAcross()},
+            {"20", new Day20FirstFreeIp()},
+            {"20.2", new Day20CountFreeIps()}
         };
 
         static void Main(string[] args)

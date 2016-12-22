@@ -95,6 +95,7 @@
     <Compile Include="Factory\BotInstruction.cs" />
     <Compile Include="Factory\SwarmLayout.cs" />
     <Compile Include="Factory\SwarmScript.cs" />
+    <Compile Include="Firewall\Range.cs" />
     <Compile Include="Grid\Direction.cs" />
     <Compile Include="Grid\Move.cs" />
     <Compile Include="Grid\Position.cs" />
