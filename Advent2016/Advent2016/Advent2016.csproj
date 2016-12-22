@@ -37,6 +37,10 @@
       <HintPath>..\packages\Dnum.1.1.4252.35574\lib\net35\Dnum.dll</HintPath>
       <Private>True</Private>
     </Reference>
+    <Reference Include="Kts.AStar, Version=1.1.1.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Kts.AStar.1.1.1.0\lib\portable-net45+win+wpa81\Kts.AStar.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
     <Reference Include="MoreLinq, Version=1.4.18916.0, Culture=neutral, PublicKeyToken=384d532d7e88985d, processorArchitecture=MSIL">
       <HintPath>..\packages\morelinq.1.4.0\lib\net35\MoreLinq.dll</HintPath>
       <Private>True</Private>
@@ -61,6 +65,8 @@
     <Compile Include="Puzzle\Day14PadKeyIndex.cs" />
     <Compile Include="Puzzle\Day15Timer.cs" />
     <Compile Include="Puzzle\Day16ComputeChecksum.cs" />
+    <Compile Include="Puzzle\Day17LongestPath.cs" />
+    <Compile Include="Puzzle\Day17PathToVault.cs" />
     <Compile Include="Puzzle\Day1DistanceToActualHq.cs" />
     <Compile Include="Puzzle\Day1DistanceToHq.cs" />
     <Compile Include="Program.cs" />
@@ -113,6 +119,9 @@
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
     <Content Include="input\16.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="input\17.txt">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
     <Content Include="input\2.txt">

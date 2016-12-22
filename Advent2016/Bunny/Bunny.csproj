@@ -82,6 +82,10 @@
     <Compile Include="Display\Instruction.cs" />
     <Compile Include="Display\InstructionParser.cs" />
     <Compile Include="Display\ScreenSimulator.cs" />
+    <Compile Include="DynamicMaze\Maze.cs" />
+    <Compile Include="DynamicMaze\Dynamizer.cs" />
+    <Compile Include="DynamicMaze\VaultNavigator.cs" />
+    <Compile Include="DynamicMaze\Position.cs" />
     <Compile Include="Factory\Bot.cs" />
     <Compile Include="Factory\Destination.cs" />
     <Compile Include="Factory\DestinationKind.cs" />

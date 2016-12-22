@@ -50,7 +50,9 @@ namespace Advent2016
             {"15", new Day15Timer()},
             {"15.2", new Day15Timer(new[] {"Disc #7 has 11 positions; at time=0, it is at position 0."})},
             {"16", new Day16ComputeChecksum(272)},
-            {"16.2", new Day16ComputeChecksum(35651584)}
+            {"16.2", new Day16ComputeChecksum(35651584)},
+            {"17", new Day17PathToVault() },
+            {"17.2", new Day17LongestPath() }
         };
 
         static void Main(string[] args)
