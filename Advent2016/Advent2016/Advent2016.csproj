@@ -77,6 +77,7 @@
     <Compile Include="Puzzle\Day20CountFreeIps.cs" />
     <Compile Include="Puzzle\Day20FirstFreeIp.cs" />
     <Compile Include="Puzzle\Day21ScramblePassword.cs" />
+    <Compile Include="Puzzle\Day21UnscramblePassword.cs" />
     <Compile Include="Puzzle\Day2BathroomCode.cs" />
     <Compile Include="Puzzle\Day3PossibleTriangles.cs" />
     <Compile Include="Puzzle\Day3VerticalTriangles.cs" />

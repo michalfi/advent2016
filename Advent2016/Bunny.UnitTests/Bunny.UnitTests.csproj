@@ -99,7 +99,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="RoomList\ChecksumComputerTests.cs" />
     <Compile Include="RoomList\ShifterTests.cs" />
+    <Compile Include="Scrambling\SampleOps.cs" />
     <Compile Include="Scrambling\ScramblerTests.cs" />
+    <Compile Include="Scrambling\UnscramblerTests.cs" />
     <Compile Include="SecurityDoor\CrackerTests.cs" />
     <Compile Include="SecurityDoor\PositionalCrackerTests.cs" />
   </ItemGroup>

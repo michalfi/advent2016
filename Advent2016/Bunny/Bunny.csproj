@@ -129,6 +129,7 @@
     <Compile Include="Scrambling\Scrambler.cs" />
     <Compile Include="Scrambling\SwapLetter.cs" />
     <Compile Include="Scrambling\SwapPosition.cs" />
+    <Compile Include="Scrambling\Unscrambler.cs" />
     <Compile Include="SecurityDoor\PasswordCracker.cs" />
     <Compile Include="SecurityDoor\PositionalCracker.cs" />
     <Compile Include="TrapCorridor\RowGenerator.cs" />
