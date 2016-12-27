@@ -1,5 +1,6 @@
 ﻿using Dnum;
 using System.Text.RegularExpressions;
+using Advent2016.Bunny.Utils;
 
 namespace Advent2016.Bunny.Scrambling
 {
@@ -16,34 +17,30 @@ namespace Advent2016.Bunny.Scrambling
         {
             var match = SwapPositionRe.Match(description);
             if (match.Success)
-                return new SwapPosition(Int(match, 1), Int(match, 2));
+                return new SwapPosition(match.Int(1), match.Int(2));
 
             match = SwapLetterRe.Match(description);
             if (match.Success)
-                return new SwapLetter(Char(match, 1), Char(match, 2));
+                return new SwapLetter(match.Char(1), match.Char(2));
 
             match = RotateRe.Match(description);
             if (match.Success)
-                return new Rotate(Direction(match, 1), Int(match, 2));
+                return new Rotate(Direction(match, 1), match.Int(2));
 
             match = RotateByRe.Match(description);
             if (match.Success)
-                return new RotateByLetter(Char(match, 1));
+                return new RotateByLetter(match.Char(1));
 
             match = ReverseRe.Match(description);
             if (match.Success)
-                return new Reverse(Int(match, 1), Int(match, 2));
+                return new Reverse(match.Int(1), match.Int(2));
 
             match = MoveRe.Match(description);
             if (match.Success)
-                return new Move(Int(match, 1), Int(match, 2));
+                return new Move(match.Int(1), match.Int(2));
 
             return null;
         }
-
-        private int Int(Match match, int group) => int.Parse(match.Groups[group].Value);
-
-        private char Char(Match match, int group) => match.Groups[group].Value[0];
 
         private Rotate.RotateDirection Direction(Match match, int group)
             => Dnum<Rotate.RotateDirection>.Parse(match.Groups[group].Value);

@@ -60,7 +60,8 @@ namespace Advent2016
             {"20", new Day20FirstFreeIp()},
             {"20.2", new Day20CountFreeIps()},
             {"21", new Day21ScramblePassword("abcdefgh")},
-            {"21.2", new Day21UnscramblePassword("fbgdceah")}
+            {"21.2", new Day21UnscramblePassword("fbgdceah")},
+            {"22", new Day22CountViablePairs()}
         };
 
         static void Main(string[] args)

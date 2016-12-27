@@ -68,6 +68,10 @@
     <Compile Include="ChipAssembly\ManipulationPlanner.cs" />
     <Compile Include="ChipAssembly\State.cs" />
     <Compile Include="ChipAssembly\InitialStateParser.cs" />
+    <Compile Include="Cluster\ClusterSetup.cs" />
+    <Compile Include="Cluster\DataDownload.cs" />
+    <Compile Include="Cluster\GridState.cs" />
+    <Compile Include="Cluster\Node.cs" />
     <Compile Include="Comms\DataGenerator.cs" />
     <Compile Include="Comms\KeyFinder.cs" />
     <Compile Include="Comms\NletFinder.cs" />
@@ -134,6 +138,7 @@
     <Compile Include="SecurityDoor\PositionalCracker.cs" />
     <Compile Include="TrapCorridor\RowGenerator.cs" />
     <Compile Include="TrapCorridor\TileRow.cs" />
+    <Compile Include="Utils\MatchExtensions.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
